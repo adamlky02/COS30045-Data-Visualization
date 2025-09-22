@@ -31,7 +31,6 @@ body {
     display: flex;
     gap: 20px;
 }
-
 .navbar a {
     color: black;
     text-decoration: none;
