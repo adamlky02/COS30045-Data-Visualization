@@ -81,3 +81,38 @@ footer {
     margin-bottom: 10px;
     color: #f96815;
 }
+
+/* style.css */
+.hero {
+    background: linear-gradient(135deg, #FEBA4F, #f96815);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero button {
+    background: white;
+    color: #f96815;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: #333;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
