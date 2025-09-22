@@ -31,18 +31,6 @@ body {
     transition: background 0.3s;
 }
 
-.navbar ul li a:hover {
-    background-color: #f96815;
-    border-radius: 5px;
-    color: white;
-}
-
-.navbar ul li a.active {
-    background-color: #E2725B;
-    border-radius: 5px;
-    color: white;
-}
-
 .navbar a:hover {
     background-color: #f96815;
     border-radius: 5px;
