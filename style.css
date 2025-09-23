@@ -1,8 +1,5 @@
-
 body {
-    height:100%;
-    display: flex;
-    flex-direction: column;
+
     background-color: #f0dc82;
     color: #333;
     line-height: 1.6;
