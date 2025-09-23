@@ -5,7 +5,6 @@ body {
     margin : 0 ;
 }
 
-/* Navigation Bar */
 .navbar {
     display: flex;
     align-items: center;
@@ -98,20 +97,6 @@ footer {
     margin-bottom: 15px;
 }
 
-.banner button {
-    background: white;
-    color: #f96815;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.banner button:hover {
-    background: #333;
-    color: #fff;
-}
 
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(30px); }
