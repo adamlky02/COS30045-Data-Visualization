@@ -1,5 +1,8 @@
 
 body {
+    height:100%;
+    display: flex;
+    flex-direction: column;
     background-color: #f0dc82;
     color: #333;
     line-height: 1.6;
@@ -7,6 +10,7 @@ body {
 
 /* Navigation Bar */
 .navbar {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,6 +53,7 @@ main {
 
 /* Footer */
 footer {
+    width: 100%;
     text-align: center;
     padding: 15px;
     background: #FEBA4F;
