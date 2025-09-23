@@ -9,3 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const exploreBtn = document.getElementById("exploreButton");
+
+    if (exploreBtn) {
+        exploreBtn.addEventListener("click", function () {
+            alert("Check our Televisions page for details!");
+        });
+    }
+});
